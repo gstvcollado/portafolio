@@ -1,5 +1,5 @@
 import Masculino from "../../../src/assets/img/fotoPerfil.jpeg";
-import CvCollado from "../../../public/pdf/CV_GustavoCollado.pdf";
+import CvCollado from "../pdf/CV_GustavoCollado.pdf";
 export default function Hero({ id }) {
   return (
     <main
