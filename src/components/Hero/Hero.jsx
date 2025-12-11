@@ -1,5 +1,5 @@
 import Masculino from "../../../src/assets/img/fotoPerfil.jpeg";
-
+import CvCollado from "../../../public/pdf/CV_GustavoCollado.pdf";
 export default function Hero({ id }) {
   return (
     <main
@@ -17,12 +17,12 @@ export default function Hero({ id }) {
           Construyo interfaces modernas y sistemas web usando React y Laravel
         </p>
         <div className="flex gap-4">
-          <button className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400">
+          {/* <button className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400">
             Ver proyectos
-          </button>
+          </button> */}
 
           <a
-            href="/pdf/CV_GustavoCollado.pdf"
+            href={CvCollado}
             download
             className="px-4 py-2 bg-gray-800 text-white rounded-md hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-500"
           >
