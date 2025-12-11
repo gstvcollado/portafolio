@@ -20,9 +20,14 @@ export default function Hero({ id }) {
           <button className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400">
             Ver proyectos
           </button>
-          <button className="px-4 py-2 bg-gray-800 text-white rounded-md hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-500">
+
+          <a
+            href="/pdf/CV_GustavoCollado.pdf"
+            download
+            className="px-4 py-2 bg-gray-800 text-white rounded-md hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-500"
+          >
             Descargar CV
-          </button>
+          </a>
         </div>
       </div>
       <div>
