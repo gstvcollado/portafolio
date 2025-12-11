@@ -10,10 +10,10 @@ export default function Hero({ id }) {
         <h1 className="font-bold text-white text-3xl mb-2">
           Hola, soy Gustavo Collado Peralta
         </h1>
-        <h2 className="text-gray-600 mb-2">
+        <h2 className="text-gray-300 mb-2">
           Desarrollador web jr - Ing. en Sistemas Computacionales
         </h2>
-        <p className="text-gray-500 mb-4">
+        <p className="text-gray-400 mb-4">
           Construyo interfaces modernas y sistemas web usando React y Laravel
         </p>
         <div className="flex gap-4">
