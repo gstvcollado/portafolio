@@ -1,7 +1,7 @@
-export default function Skill({ cards }) {
+export default function Skill({ cards, id }) {
   return (
-    <div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <div id={id} className="bg-gradient-to-r from-[#0a1a2f] to-[#1e3a8a]  p-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 ">
         {cards.map((card, index) => (
           <div
             key={index}

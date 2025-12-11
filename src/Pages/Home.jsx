@@ -19,11 +19,11 @@ import Contact from "../components/Contact/Contact";
 import Footer from "../components/Footer/Footer";
 export default function Home() {
   const links = [
-    { href: "/", label: "Inicio" },
-    { href: "/about", label: "Sobre mi" },
-    { href: "/skills", label: "Skills" },
-    { href: "/proyect", label: "Proyectos" },
-    { href: "/contact", label: "Contacto" },
+    { href: "#inicio", label: "Inicio" },
+    { href: "#about", label: "Sobre mi" },
+    { href: "#skills", label: "Skills" },
+    /*  { href: "#proyect", label: "Proyectos" }, */
+    { href: "#contact", label: "Contacto" },
   ];
 
   const cards = [
@@ -66,12 +66,12 @@ export default function Home() {
   ];
 
   return (
-    <div>
+    <div className="pt-15">
       <Navbar links={links} />
-      <Hero />
-      <About />
-      <Skill cards={cards} />
-      <Contact />
+      <Hero id="inicio" />
+      <About id="about" />
+      <Skill id="skills" cards={cards} />
+      <Contact id="contact" />
       <Footer />
     </div>
   );

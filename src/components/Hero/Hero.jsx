@@ -1,8 +1,11 @@
 import Masculino from "../../../src/assets/img/fotoPerfil.jpeg";
 
-export default function Hero() {
+export default function Hero({ id }) {
   return (
-    <main className="bg-gradient-to-r from-[#0a1a2f] to-[#1e3a8a] flex justify-around items-center p-6">
+    <main
+      id={id}
+      className="bg-gradient-to-r from-[#0a1a2f] to-[#1e3a8a] flex justify-around items-center p-6"
+    >
       <div className="max-w-md">
         <h1 className="font-bold text-white text-3xl mb-2">
           Hola, soy Gustavo Collado Peralta

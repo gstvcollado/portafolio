@@ -2,9 +2,12 @@ import LinkedinIcon from "../icon/Linkedin";
 import GitHubIcon from "../icon/GitHub";
 import PhoneIcon from "../icon/Phone";
 import EmailIcon from "../icon/Email";
-export default function Contact() {
+export default function Contact({ id }) {
   return (
-    <div className="max-w-md mx-auto p-6 bg-white rounded-lg shadow-md mt-4 text-center">
+    <div
+      id={id}
+      className="max-w-md mx-auto p-6 bg-white rounded-lg shadow-md mt-4 text-center"
+    >
       <h2 className="text-2xl font-bold text-blue-600 mb-4">Contacto</h2>
 
       {/* Nombre */}

@@ -1,7 +1,7 @@
 import Masculino from "../../../src/assets/img/fotoPerfil.jpeg";
-export default function About() {
+export default function About({ id }) {
   return (
-    <div className="flex justify-around items-center gap-8 p-6">
+    <div id={id} className="flex justify-around items-center gap-8 p-6">
       <div>
         <img
           className="w-[200px] rounded-lg shadow-xl border-4 border-black object-cover transition-transform duration-300 hover:scale-105"
